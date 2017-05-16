@@ -323,6 +323,7 @@ class LinkedList{
 	
 };
 
+//This function is used to take input from the user
 	Node* takeInput(){
 		int temp;
 		cout<<"Enter next"<<endl;
