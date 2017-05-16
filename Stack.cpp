@@ -27,9 +27,8 @@ class stack{
 		}
 		
 		int top(){
-			if(isEmpty()){
+			if(isEmpty())
 				return -1;
-			}
 			return data[nextElementPosition-1];
 		}
 		
