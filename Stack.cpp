@@ -39,7 +39,7 @@ class stack{
 						for(int i=0; i<maxSize; i++)
 							temp[i]=data[i];
 						maxSize*=2;
-						delete [] data;
+						delete[] data;
 						data=temp;
 					}
 				data[nextElementPosition++]=nextElement;
@@ -79,7 +79,7 @@ class stack{
 		}
 	
 		~stack(){
-			delete [] data;
+			delete[] data;
 			data=NULL;
 		}
 };
